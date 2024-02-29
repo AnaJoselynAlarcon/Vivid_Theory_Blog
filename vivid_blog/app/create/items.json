@@ -1,0 +1,32 @@
+[
+  {
+    "id": "1h2GJKH12gkHG31h1H",
+    "title": "This is my first blog post",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat, molestie ipsum et, consequat nibh. Etiam non elit dui. Nullam vel eros sit amet arcu vestibulum accumsan in in leo. Fusce malesuada vulputate faucibus. Integer in hendrerit nisi. Praesent a hendrerit urna. In non imperdiet elit, sed molestie odio. Etiam auctor nisl et justo sodales, sit amet tempor orci condimentum. Donec congue, orci nec congue maximus, tellus lorem accumsan diam, et ultrices lacus lectus vitae ligula. Proin ultrices sit amet neque a tincidunt. Proin eu egestas mi. Pellentesque egestas metus ut nulla accumsan, eleifend tincidunt nisi vestibulum. Phasellus non varius sem, ac varius.",
+    "published_at": "December 1, 2019",
+    "slug": "this-is-my-first-blog-post",
+    "image": "/assets/car2.jpg",
+    "updated_at": "December 1, 2019",
+    "deleted_at": "December 1, 2019"
+  },
+  {
+    "id": "2KJH3k2j3H1k2J3K1H",
+    "title": "This is my second blog post",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat, molestie ipsum et, consequat nibh. Etiam non elit dui. Nullam vel eros sit amet arcu vestibulum accumsan in in leo. Fusce malesuada vulputate faucibus. Integer in hendrerit nisi. Praesent a hendrerit urna. In non imperdiet elit, sed molestie odio. Etiam auctor nisl et justo sodales, sit amet tempor orci condimentum. Donec congue, orci nec congue maximus, tellus lorem accumsan diam, et ultrices lacus lectus vitae ligula. Proin ultrices sit amet neque a tincidunt. Proin eu egestas mi. Pellentesque egestas metus ut nulla accumsan, eleifend tincidunt nisi vestibulum. Phasellus non varius sem, ac varius.",
+    "published_at": "January 1, 2020",
+    "slug": "this-is-my-second-blog-post",
+    "image": "/assets/car3.jpg",
+    "updated_at": "January 1, 2020",
+    "deleted_at": "January 1, 2020"
+  },
+  {
+    "id": "3h2KJH3k2j3H1k2J3",
+    "title": "This is my third blog post",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat, molestie ipsum et, consequat nibh. Etiam non elit dui. Nullam vel eros sit amet arcu vestibulum accumsan in in leo. Fusce malesuada vulputate faucibus. Integer in hendrerit nisi. Praesent a hendrerit urna. In non imperdiet elit, sed molestie odio. Etiam auctor nisl et justo sodales, sit amet tempor orci condimentum. Donec congue, orci nec congue maximus, tellus lorem accumsan diam, et ultrices lacus lectus vitae ligula. Proin ultrices sit amet neque a tincidunt. Proin eu egestas mi. Pellentesque egestas metus ut nulla accumsan, eleifend tincidunt nisi vestibulum. Phasellus non varius sem, ac varius.",
+    "published_at": "February 1, 2020",
+    "slug": "this-is-my-third-blog-post",
+    "image": "/assets/car1.jpg",
+    "updated_at": "February 1, 2020",
+    "deleted_at": "February 1, 2020"
+  }
+]
