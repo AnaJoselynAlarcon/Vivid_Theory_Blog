@@ -12,6 +12,7 @@ export default function BlogPostList({ items }) {
               <BlogPost
                 title={item.title}
                 published_at={item.published_at}
+                slug={item.slug}
                 content={item.content}
                 image={item.image}
               />
