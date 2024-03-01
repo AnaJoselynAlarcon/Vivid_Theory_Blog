@@ -57,8 +57,10 @@ export default function Page() {
 
   return (
     <main>
-      <h1 className="text-center text-2xl font-bold">ALL POSTS PAGE</h1>
-      <div className="border border-gray-300 p-4 rounded-lg text-center">
+      <h1 className="text-center text-2xl font-bold">
+        For car lovers, like you{" "}
+      </h1>
+      <div className=" p-4 rounded-lg text-center">
         <input
           type="text"
           placeholder="Search"

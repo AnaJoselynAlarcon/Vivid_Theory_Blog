@@ -27,8 +27,8 @@ export default function Home() {
         {pages.map((page, index) => (
           <div
             key={index}
-            className="flex items-center justify-center w-1/3 h-64 p-4 m-3 bg-orange-100 rounded-md shadow-lg">
-            <Link href={page.url} className="text-blue-600 text-center">
+            className="flex items-center justify-center w-1/3 h-64 p-4 m-3 rounded-md shadow-lg">
+            <Link href={page.url} className="text-orange-300 text-center">
               {page.title}
             </Link>
           </div>

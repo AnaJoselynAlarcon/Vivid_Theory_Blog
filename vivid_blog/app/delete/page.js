@@ -3,6 +3,7 @@ import { useState } from "react";
 import { useRouter } from "next/navigation";
 import items from "/app/create/items.json";
 import MyModal from "../components/MyModal";
+import BlogPost from "../create/blogPost";
 
 export default function Page() {
   const [confirmDelete, setConfirmDelete] = useState(false);
@@ -22,8 +23,6 @@ export default function Page() {
 
   const handleCancelDelete = () => {
     setConfirmDelete(false);
-    //setPostIdToDelete(null);
-
     router.push("/all");
   };
 
@@ -36,22 +35,27 @@ export default function Page() {
 
   return (
     <main>
-      <h1 className="border-sky-500 border-2 p-4 text-center-xl text-center font-bold">
+      <h1 className="text-sky-500  p-4 text-center-xl text-center font-bold">
         DELETE PAGE
       </h1>
       <div>
-        <h2>Posts:</h2>
         {posts.map((post) => (
-          <div
-            key={post.id}
-            className="border-yellow-500 border-2 p-3 m-5 hover:bg-slate-700">
-            <p>{post.title}</p>
-            <p>{post.content}</p>
-            <button
-              className="top-0 right-0 bg-red-500 hover:bg-red-600 text-white font-bold py-1 px-2 rounded"
-              onClick={() => handleModal(post)}>
-              Delete
-            </button>
+          <div key={post.id} className=" hover:bg-slate-700">
+            <BlogPost
+              title={post.title}
+              published_at={post.published_at}
+              slug={post.slug}
+              content={post.content}
+              image={post.image}
+            />
+
+            <div className="w-full h-full flex justify-center items-center">
+              <button
+                className="bg-red-500 hover:bg-red-600 text-white font-bold py-1 px-2 rounded"
+                onClick={() => handleModal(post)}>
+                Delete
+              </button>
+            </div>
           </div>
         ))}
 

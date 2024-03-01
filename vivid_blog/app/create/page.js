@@ -12,12 +12,9 @@ import itemsData from "./items.json";
 import { useState } from "react";
 
 export default function Home() {
-  //Initialize a state variable (e.g., items) with the data from items.json.
   const [items, setItems] = useState(itemsData);
 
-  //Create an event handler function (e.g., handleAddItem) that adds a new item to items.
   const handleAddItem = (item) => {
-    //adds a new item to itemsData
     console.log(
       `Submitting ${item.title} ${item.content} ${item.published_at} ${item.image}`
     );

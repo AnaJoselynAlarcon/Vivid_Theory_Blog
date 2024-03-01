@@ -32,8 +32,14 @@ export default function Page() {
           />
         </div>
       )}
-
-      <SuggestedBlog blogs={items} />
+      <div>
+        <h2 className="text-2xl font-bold text-center">
+          Something else that might be interesting...
+        </h2>
+        <div className="flex flex-wrap justify-between">
+          <SuggestedBlog blogs={items} />
+        </div>
+      </div>
     </main>
   );
 }

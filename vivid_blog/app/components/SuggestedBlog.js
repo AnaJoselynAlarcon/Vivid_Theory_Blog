@@ -19,7 +19,7 @@ const SuggestedBlog = ({ blogs }) => {
     <>
       <div className="grid grid-cols-1 md:grid-cols-4">
         {randomBlogs.map((item) => (
-          <div className="" key={item.id}>
+          <div className="flex justify-between w-full" key={item.id}>
             <BlogPost
               title={item.title}
               published_at={item.published_at}

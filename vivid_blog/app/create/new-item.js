@@ -10,10 +10,8 @@ export default function NewItem({ onAddItem }) {
   const [imageURL, setImageURL] = useState("");
 
   const handleSubmit = (event) => {
-    //this function should Prevent the form's default submission behavior.
     event.preventDefault();
 
-    //Create an item object with the current values of name, content, and published_at.
     const newItem = {
       id: `${title}-${content}-${published_at}`,
       title,
@@ -22,7 +20,6 @@ export default function NewItem({ onAddItem }) {
       image: imageURL,
     };
 
-    //Log the item object to the console
     console.log(
       `The item is: ${newItem.title}, the content is ${newItem.content}, and the published_at is ${newItem.published_at}`
     );

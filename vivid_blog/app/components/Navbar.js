@@ -13,10 +13,8 @@ const Navbar = () => {
           className="rounded-full"
         />
 
-        <Link href="/">Home</Link>
         <div className="flex space-x-4">
-          <Link href="/">About</Link>
-          <Link href="/">Blog</Link>
+          <Link href="/">Home</Link>
         </div>
       </div>
     </nav>

@@ -15,7 +15,11 @@ export default function BlogPost({
       </Link>
       <p className="text-gray-600 text-sm mb-4">Published: {published_at}</p>
       <div>
-        <img src={image} alt={title} className="w-full h-64 object-cover" />
+        <img
+          src={image}
+          alt={title}
+          className="w-full h-64 md:h-1/3 lg:h-1/4 object-cover"
+        />
       </div>
       <p className="text-gray-700">{content}</p>
     </div>
